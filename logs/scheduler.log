@@ -1,0 +1,229 @@
+[2025-07-17 17:05:50.37] Starting Paper Surfer background runner... 
+PubMed API-based Paper Surfer configuration loaded.
+- Search keywords: 18 keywords
+- Output directory: ./output/papers
+- Scheduling: Enabled
+- API key: Set
+- Contact: sjlee98@yonsei.ac.kr
+- Date filter: Enabled
+- Search range: Last 7 days (from 2025/07/10 to today)
+2025-07-17 17:05:50 - __main__ - INFO - Paper Surfer started - PubMed API version
+
+    ====================================================
+    🔬 Paper Surfer - PubMed API-based Paper Collection Tool
+    ====================================================
+    
+    ✨ Key Features:
+    • Reliable paper search using PubMed API
+    • Keyword-based relevance analysis
+    • Automatic saving in markdown format
+    • Automatic scheduling functionality
+    
+    📧 Contact: sjlee98@yonsei.ac.kr
+    ====================================================
+    
+
+🚀 One-time Execution Mode
+==================================================
+Search keywords: breast cancer, cancer, genomics, sequencing, mutation, evolution, trajectory, tumor, somatic, germline, signature, copy number, structural variation, chromosomal instability, resistance, prognosis, early detection, clonal
+Maximum results: 50
+API key configured: Yes
+2025-07-17 17:05:50 - modules.pubmed_scraper - INFO - PubMed scraper initialization complete
+2025-07-17 17:05:50 - modules.pubmed_scraper - INFO - API key configured: Yes
+2025-07-17 17:05:50 - modules.markdown_saver - INFO - MarkdownSaver initialization complete: output\papers\2025-07-17
+2025-07-17 17:05:50 - modules.markdown_saver - INFO - Category folders created: ['high_relevance', 'medium_relevance', 'low_relevance']
+
+🔍 Searching papers...
+2025-07-17 17:05:50 - modules.pubmed_scraper - INFO - Starting search with keyword 'breast cancer'
+2025-07-17 17:05:50 - modules.pubmed_scraper - INFO - Date filter applied: ("2025/07/10"[Publication Date] : "2025/07/17"[Publication Date])
+2025-07-17 17:05:54 - modules.pubmed_scraper - INFO - Keyword 'breast cancer': 5 papers found
+2025-07-17 17:05:55 - modules.pubmed_scraper - INFO - Starting search with keyword 'cancer'
+2025-07-17 17:05:55 - modules.pubmed_scraper - INFO - Date filter applied: ("2025/07/10"[Publication Date] : "2025/07/17"[Publication Date])
+2025-07-17 17:05:57 - modules.pubmed_scraper - INFO - Keyword 'cancer': 1 papers found
+2025-07-17 17:05:58 - modules.pubmed_scraper - INFO - Starting search with keyword 'genomics'
+2025-07-17 17:05:58 - modules.pubmed_scraper - INFO - Date filter applied: ("2025/07/10"[Publication Date] : "2025/07/17"[Publication Date])
+2025-07-17 17:06:01 - modules.pubmed_scraper - INFO - Keyword 'genomics': 2 papers found
+2025-07-17 17:06:02 - modules.pubmed_scraper - INFO - Starting search with keyword 'sequencing'
+2025-07-17 17:06:02 - modules.pubmed_scraper - INFO - Date filter applied: ("2025/07/10"[Publication Date] : "2025/07/17"[Publication Date])
+2025-07-17 17:06:05 - modules.pubmed_scraper - INFO - Keyword 'sequencing': 0 papers found
+2025-07-17 17:06:06 - modules.pubmed_scraper - INFO - Starting search with keyword 'mutation'
+2025-07-17 17:06:06 - modules.pubmed_scraper - INFO - Date filter applied: ("2025/07/10"[Publication Date] : "2025/07/17"[Publication Date])
+2025-07-17 17:06:09 - modules.pubmed_scraper - INFO - Keyword 'mutation': 2 papers found
+2025-07-17 17:06:10 - modules.pubmed_scraper - INFO - Starting search with keyword 'evolution'
+2025-07-17 17:06:10 - modules.pubmed_scraper - INFO - Date filter applied: ("2025/07/10"[Publication Date] : "2025/07/17"[Publication Date])
+2025-07-17 17:06:13 - modules.pubmed_scraper - INFO - Keyword 'evolution': 0 papers found
+2025-07-17 17:06:14 - modules.pubmed_scraper - INFO - Starting search with keyword 'trajectory'
+2025-07-17 17:06:14 - modules.pubmed_scraper - INFO - Date filter applied: ("2025/07/10"[Publication Date] : "2025/07/17"[Publication Date])
+2025-07-17 17:06:16 - modules.pubmed_scraper - INFO - Keyword 'trajectory': 0 papers found
+2025-07-17 17:06:17 - modules.pubmed_scraper - INFO - Starting search with keyword 'tumor'
+2025-07-17 17:06:17 - modules.pubmed_scraper - INFO - Date filter applied: ("2025/07/10"[Publication Date] : "2025/07/17"[Publication Date])
+2025-07-17 17:06:20 - modules.pubmed_scraper - INFO - Keyword 'tumor': 1 papers found
+2025-07-17 17:06:21 - modules.pubmed_scraper - INFO - Starting search with keyword 'somatic'
+2025-07-17 17:06:21 - modules.pubmed_scraper - INFO - Date filter applied: ("2025/07/10"[Publication Date] : "2025/07/17"[Publication Date])
+2025-07-17 17:06:24 - modules.pubmed_scraper - INFO - Keyword 'somatic': 4 papers found
+2025-07-17 17:06:25 - modules.pubmed_scraper - INFO - Starting search with keyword 'germline'
+2025-07-17 17:06:25 - modules.pubmed_scraper - INFO - Date filter applied: ("2025/07/10"[Publication Date] : "2025/07/17"[Publication Date])
+2025-07-17 17:06:27 - modules.pubmed_scraper - INFO - Keyword 'germline': 3 papers found
+2025-07-17 17:06:28 - modules.pubmed_scraper - INFO - Starting search with keyword 'signature'
+2025-07-17 17:06:28 - modules.pubmed_scraper - INFO - Date filter applied: ("2025/07/10"[Publication Date] : "2025/07/17"[Publication Date])
+2025-07-17 17:06:32 - modules.pubmed_scraper - INFO - Keyword 'signature': 0 papers found
+2025-07-17 17:06:33 - modules.pubmed_scraper - INFO - Starting search with keyword 'copy number'
+2025-07-17 17:06:33 - modules.pubmed_scraper - INFO - Date filter applied: ("2025/07/10"[Publication Date] : "2025/07/17"[Publication Date])
+2025-07-17 17:06:35 - modules.pubmed_scraper - INFO - Keyword 'copy number': 2 papers found
+2025-07-17 17:06:36 - modules.pubmed_scraper - INFO - Starting search with keyword 'structural variation'
+2025-07-17 17:06:36 - modules.pubmed_scraper - INFO - Date filter applied: ("2025/07/10"[Publication Date] : "2025/07/17"[Publication Date])
+2025-07-17 17:06:38 - modules.pubmed_scraper - INFO - Keyword 'structural variation': 0 papers found
+2025-07-17 17:06:39 - modules.pubmed_scraper - INFO - Starting search with keyword 'chromosomal instability'
+2025-07-17 17:06:39 - modules.pubmed_scraper - INFO - Date filter applied: ("2025/07/10"[Publication Date] : "2025/07/17"[Publication Date])
+2025-07-17 17:06:41 - modules.pubmed_scraper - INFO - Keyword 'chromosomal instability': 0 papers found
+2025-07-17 17:06:42 - modules.pubmed_scraper - INFO - Starting search with keyword 'resistance'
+2025-07-17 17:06:42 - modules.pubmed_scraper - INFO - Date filter applied: ("2025/07/10"[Publication Date] : "2025/07/17"[Publication Date])
+2025-07-17 17:06:44 - modules.pubmed_scraper - INFO - Keyword 'resistance': 0 papers found
+2025-07-17 17:06:45 - modules.pubmed_scraper - INFO - Starting search with keyword 'prognosis'
+2025-07-17 17:06:45 - modules.pubmed_scraper - INFO - Date filter applied: ("2025/07/10"[Publication Date] : "2025/07/17"[Publication Date])
+2025-07-17 17:06:48 - modules.pubmed_scraper - INFO - Keyword 'prognosis': 1 papers found
+2025-07-17 17:06:49 - modules.pubmed_scraper - INFO - Starting search with keyword 'early detection'
+2025-07-17 17:06:49 - modules.pubmed_scraper - INFO - Date filter applied: ("2025/07/10"[Publication Date] : "2025/07/17"[Publication Date])
+2025-07-17 17:06:52 - modules.pubmed_scraper - INFO - Keyword 'early detection': 0 papers found
+2025-07-17 17:06:53 - modules.pubmed_scraper - INFO - Starting search with keyword 'clonal'
+2025-07-17 17:06:53 - modules.pubmed_scraper - INFO - Date filter applied: ("2025/07/10"[Publication Date] : "2025/07/17"[Publication Date])
+2025-07-17 17:06:55 - modules.pubmed_scraper - INFO - Keyword 'clonal': 1 papers found
+2025-07-17 17:06:56 - modules.pubmed_scraper - INFO - Total 8 unique papers found
+✅ Found 8 papers.
+
+💾 Saving papers...
+2025-07-17 17:06:56 - modules.markdown_saver - INFO - Paper Markdown saved successfully: output\papers\2025-07-17\medium_relevance\Biochemical pharmacology_Gut microbiota and glycochenodeoxycholic role in liver metastasis of breast cancer._PMID_40659124_2.md
+2025-07-17 17:06:56 - modules.markdown_saver - INFO - Paper Markdown saved successfully: output\papers\2025-07-17\medium_relevance\NPJ breast cancer_Genomic landscape of breast cancer in elderly patients._PMID_40640183_2.md
+2025-07-17 17:06:56 - modules.markdown_saver - INFO - Paper Markdown saved successfully: output\papers\2025-07-17\medium_relevance\Clin cancer research an official J American Associ_Clinicogenomic Characterization of Inflammatory Breast Cancer._PMID_40378057_2.md
+2025-07-17 17:06:56 - modules.markdown_saver - INFO - Paper Markdown saved successfully: output\papers\2025-07-17\medium_relevance\Tumori_Breast cancer and large-cell neuroendocrine carcinoma harboring the same_PMID_40665666_2.md
+2025-07-17 17:06:56 - modules.markdown_saver - INFO - Paper Markdown saved successfully: output\papers\2025-07-17\medium_relevance\oncologist_Somatic Mutations in Middle East and North Africa (MENA) Breast Cancer Patients A Systematic Review._PMID_40665690_2.md
+2025-07-17 17:06:56 - modules.markdown_saver - INFO - Paper Markdown saved successfully: output\papers\2025-07-17\high_relevance\Breast cancer research treatment_Genomic landscape of hormone therapy-resistant HR-positive, HER2-negative breast cancer._PMID_40652157_2.md
+2025-07-17 17:06:56 - modules.markdown_saver - INFO - Paper Markdown saved successfully: output\papers\2025-07-17\low_relevance\Translational oncology_Characterization and functional analysis of BRCA1 and BRCA2 variants in a cohort of 100 unselected patients undergoing germline screening._PMID_40664060_2.md
+2025-07-17 17:06:56 - modules.markdown_saver - INFO - Paper Markdown saved successfully: output\papers\2025-07-17\medium_relevance\Clin experimental medicine_Exploring SERTAD4 as a prognostic biomarker and therapeutic target in breast cancer insights from multidatabase analyses and in vitro studies._PMID_40658117_2.md
+✅ Total 8 papers saved.
+
+📊 Category classification:
+🔥 High relevance: 1 papers
+📊 Medium relevance: 6 papers
+📄 Low relevance: 1 papers
+
+📁 Save location: output\papers\2025-07-17
+📄 Saved files: 0
+[2025-07-17 17:06:56.88] Paper Surfer background runner finished 
+[2025-07-19  2:00:00.74] Starting Paper Surfer background runner... 
+PubMed API-based Paper Surfer configuration loaded.
+- Search keywords: 18 keywords
+- Output directory: C:/iCloudDrive/iCloud~md~obsidian/auto논문
+- Scheduling: Enabled
+- API key: Set
+- Contact: sjlee98@yonsei.ac.kr
+- Date filter: Enabled
+- Search range: Last 7 days (from 2025/07/12 to today)
+2025-07-19 02:00:01 - __main__ - INFO - Paper Surfer started - PubMed API version
+
+    ====================================================
+    🔬 Paper Surfer - PubMed API-based Paper Collection Tool
+    ====================================================
+    
+    ✨ Key Features:
+    • Reliable paper search using PubMed API
+    • Keyword-based relevance analysis
+    • Automatic saving in markdown format
+    • Automatic scheduling functionality
+    
+    📧 Contact: sjlee98@yonsei.ac.kr
+    ====================================================
+    
+
+🚀 One-time Execution Mode
+==================================================
+Search keywords: breast cancer, cancer, genomics, sequencing, mutation, evolution, trajectory, tumor, somatic, germline, signature, copy number, structural variation, chromosomal instability, resistance, prognosis, early detection, clonal
+Maximum results: 50
+API key configured: Yes
+2025-07-19 02:00:01 - modules.pubmed_scraper - INFO - PubMed scraper initialization complete
+2025-07-19 02:00:01 - modules.pubmed_scraper - INFO - API key configured: Yes
+2025-07-19 02:00:01 - modules.markdown_saver - INFO - MarkdownSaver initialization complete: C:\iCloudDrive\iCloud~md~obsidian\auto논문\2025-07-19
+2025-07-19 02:00:01 - modules.markdown_saver - INFO - Category folders created: ['high_relevance', 'medium_relevance', 'low_relevance']
+
+🔍 Searching papers...
+2025-07-19 02:00:01 - modules.pubmed_scraper - INFO - Starting search with keyword 'breast cancer'
+2025-07-19 02:00:01 - modules.pubmed_scraper - INFO - Date filter applied: ("2025/07/12"[Publication Date] : "2025/07/19"[Publication Date])
+2025-07-19 02:00:04 - modules.pubmed_scraper - INFO - Paper published in high-impact journal Cell reports. Medicine - automatically categorized as high relevance
+2025-07-19 02:00:04 - modules.pubmed_scraper - INFO - Keyword 'breast cancer': 5 papers found
+2025-07-19 02:00:05 - modules.pubmed_scraper - INFO - Starting search with keyword 'cancer'
+2025-07-19 02:00:05 - modules.pubmed_scraper - INFO - Date filter applied: ("2025/07/12"[Publication Date] : "2025/07/19"[Publication Date])
+2025-07-19 02:00:08 - modules.pubmed_scraper - INFO - Paper published in high-impact journal Cell reports. Medicine - automatically categorized as high relevance
+2025-07-19 02:00:08 - modules.pubmed_scraper - INFO - Keyword 'cancer': 2 papers found
+2025-07-19 02:00:09 - modules.pubmed_scraper - INFO - Starting search with keyword 'genomics'
+2025-07-19 02:00:09 - modules.pubmed_scraper - INFO - Date filter applied: ("2025/07/12"[Publication Date] : "2025/07/19"[Publication Date])
+2025-07-19 02:00:13 - modules.pubmed_scraper - INFO - Paper published in high-impact journal Cell reports. Medicine - automatically categorized as high relevance
+2025-07-19 02:00:13 - modules.pubmed_scraper - INFO - Keyword 'genomics': 2 papers found
+2025-07-19 02:00:14 - modules.pubmed_scraper - INFO - Starting search with keyword 'sequencing'
+2025-07-19 02:00:14 - modules.pubmed_scraper - INFO - Date filter applied: ("2025/07/12"[Publication Date] : "2025/07/19"[Publication Date])
+2025-07-19 02:00:16 - modules.pubmed_scraper - INFO - Keyword 'sequencing': 0 papers found
+2025-07-19 02:00:17 - modules.pubmed_scraper - INFO - Starting search with keyword 'mutation'
+2025-07-19 02:00:17 - modules.pubmed_scraper - INFO - Date filter applied: ("2025/07/12"[Publication Date] : "2025/07/19"[Publication Date])
+2025-07-19 02:00:20 - modules.pubmed_scraper - INFO - Keyword 'mutation': 1 papers found
+2025-07-19 02:00:21 - modules.pubmed_scraper - INFO - Starting search with keyword 'evolution'
+2025-07-19 02:00:21 - modules.pubmed_scraper - INFO - Date filter applied: ("2025/07/12"[Publication Date] : "2025/07/19"[Publication Date])
+2025-07-19 02:00:24 - modules.pubmed_scraper - INFO - Keyword 'evolution': 0 papers found
+2025-07-19 02:00:25 - modules.pubmed_scraper - INFO - Starting search with keyword 'trajectory'
+2025-07-19 02:00:25 - modules.pubmed_scraper - INFO - Date filter applied: ("2025/07/12"[Publication Date] : "2025/07/19"[Publication Date])
+2025-07-19 02:00:27 - modules.pubmed_scraper - INFO - Keyword 'trajectory': 0 papers found
+2025-07-19 02:00:28 - modules.pubmed_scraper - INFO - Starting search with keyword 'tumor'
+2025-07-19 02:00:28 - modules.pubmed_scraper - INFO - Date filter applied: ("2025/07/12"[Publication Date] : "2025/07/19"[Publication Date])
+2025-07-19 02:00:31 - modules.pubmed_scraper - INFO - Paper published in high-impact journal Cell reports. Medicine - automatically categorized as high relevance
+2025-07-19 02:00:31 - modules.pubmed_scraper - INFO - Keyword 'tumor': 2 papers found
+2025-07-19 02:00:32 - modules.pubmed_scraper - INFO - Starting search with keyword 'somatic'
+2025-07-19 02:00:32 - modules.pubmed_scraper - INFO - Date filter applied: ("2025/07/12"[Publication Date] : "2025/07/19"[Publication Date])
+2025-07-19 02:00:34 - modules.pubmed_scraper - INFO - Keyword 'somatic': 3 papers found
+2025-07-19 02:00:35 - modules.pubmed_scraper - INFO - Starting search with keyword 'germline'
+2025-07-19 02:00:35 - modules.pubmed_scraper - INFO - Date filter applied: ("2025/07/12"[Publication Date] : "2025/07/19"[Publication Date])
+2025-07-19 02:00:37 - modules.pubmed_scraper - INFO - Keyword 'germline': 2 papers found
+2025-07-19 02:00:38 - modules.pubmed_scraper - INFO - Starting search with keyword 'signature'
+2025-07-19 02:00:38 - modules.pubmed_scraper - INFO - Date filter applied: ("2025/07/12"[Publication Date] : "2025/07/19"[Publication Date])
+2025-07-19 02:00:41 - modules.pubmed_scraper - INFO - Keyword 'signature': 0 papers found
+2025-07-19 02:00:42 - modules.pubmed_scraper - INFO - Starting search with keyword 'copy number'
+2025-07-19 02:00:42 - modules.pubmed_scraper - INFO - Date filter applied: ("2025/07/12"[Publication Date] : "2025/07/19"[Publication Date])
+2025-07-19 02:00:44 - modules.pubmed_scraper - INFO - Keyword 'copy number': 2 papers found
+2025-07-19 02:00:45 - modules.pubmed_scraper - INFO - Starting search with keyword 'structural variation'
+2025-07-19 02:00:45 - modules.pubmed_scraper - INFO - Date filter applied: ("2025/07/12"[Publication Date] : "2025/07/19"[Publication Date])
+2025-07-19 02:00:47 - modules.pubmed_scraper - INFO - Keyword 'structural variation': 0 papers found
+2025-07-19 02:00:48 - modules.pubmed_scraper - INFO - Starting search with keyword 'chromosomal instability'
+2025-07-19 02:00:48 - modules.pubmed_scraper - INFO - Date filter applied: ("2025/07/12"[Publication Date] : "2025/07/19"[Publication Date])
+2025-07-19 02:00:50 - modules.pubmed_scraper - INFO - Keyword 'chromosomal instability': 0 papers found
+2025-07-19 02:00:51 - modules.pubmed_scraper - INFO - Starting search with keyword 'resistance'
+2025-07-19 02:00:51 - modules.pubmed_scraper - INFO - Date filter applied: ("2025/07/12"[Publication Date] : "2025/07/19"[Publication Date])
+2025-07-19 02:00:54 - modules.pubmed_scraper - INFO - Keyword 'resistance': 0 papers found
+2025-07-19 02:00:55 - modules.pubmed_scraper - INFO - Starting search with keyword 'prognosis'
+2025-07-19 02:00:55 - modules.pubmed_scraper - INFO - Date filter applied: ("2025/07/12"[Publication Date] : "2025/07/19"[Publication Date])
+2025-07-19 02:00:57 - modules.pubmed_scraper - INFO - Keyword 'prognosis': 1 papers found
+2025-07-19 02:00:58 - modules.pubmed_scraper - INFO - Starting search with keyword 'early detection'
+2025-07-19 02:00:58 - modules.pubmed_scraper - INFO - Date filter applied: ("2025/07/12"[Publication Date] : "2025/07/19"[Publication Date])
+2025-07-19 02:01:01 - modules.pubmed_scraper - INFO - Keyword 'early detection': 0 papers found
+2025-07-19 02:01:02 - modules.pubmed_scraper - INFO - Starting search with keyword 'clonal'
+2025-07-19 02:01:02 - modules.pubmed_scraper - INFO - Date filter applied: ("2025/07/12"[Publication Date] : "2025/07/19"[Publication Date])
+2025-07-19 02:01:04 - modules.pubmed_scraper - INFO - Keyword 'clonal': 1 papers found
+2025-07-19 02:01:05 - modules.pubmed_scraper - INFO - Total 9 unique papers found
+✅ Found 9 papers.
+
+💾 Saving papers...
+2025-07-19 02:01:05 - modules.markdown_saver - INFO - Paper Markdown saved successfully: C:\iCloudDrive\iCloud~md~obsidian\auto논문\2025-07-19\(Biochemical pharmacology)Gut microbiota and glycochenodeoxycholic role in liver metastasis of breast cancer..md
+2025-07-19 02:01:05 - modules.markdown_saver - INFO - Paper Markdown saved successfully: C:\iCloudDrive\iCloud~md~obsidian\auto논문\2025-07-19\(Cell reports. Med)Extracellular vesicle heterogeneity through the lens of multiomics..md
+2025-07-19 02:01:05 - modules.markdown_saver - INFO - Paper Markdown saved successfully: C:\iCloudDrive\iCloud~md~obsidian\auto논문\2025-07-19\(Breast cancer research BCR)Chemoresistant tumor cell secretome potentiates immune suppression in triple negative breast cancer..md
+2025-07-19 02:01:05 - modules.markdown_saver - INFO - Paper Markdown saved successfully: C:\iCloudDrive\iCloud~md~obsidian\auto논문\2025-07-19\(Clin cancer research an official J American Associ)Clinicogenomic Characterization of Inflammatory Breast Cancer..md
+2025-07-19 02:01:05 - modules.markdown_saver - INFO - Paper Markdown saved successfully: C:\iCloudDrive\iCloud~md~obsidian\auto논문\2025-07-19\(Tumori)Breast cancer and large-cell neuroendocrine carcinoma harboring the same.md
+2025-07-19 02:01:05 - modules.markdown_saver - INFO - Paper Markdown saved successfully: C:\iCloudDrive\iCloud~md~obsidian\auto논문\2025-07-19\(oncologist)Somatic Mutations in Middle East and North Africa (MENA) Breast Cancer Patients A Systematic Review..md
+2025-07-19 02:01:05 - modules.markdown_saver - INFO - Paper Markdown saved successfully: C:\iCloudDrive\iCloud~md~obsidian\auto논문\2025-07-19\(Breast cancer research treatment)Genomic landscape of hormone therapy-resistant HR-positive, HER2-negative breast cancer..md
+2025-07-19 02:01:05 - modules.markdown_saver - INFO - Paper Markdown saved successfully: C:\iCloudDrive\iCloud~md~obsidian\auto논문\2025-07-19\(Translational oncology)Characterization and functional analysis of BRCA1 and BRCA2 variants in a cohort of 100 unselected p....md
+2025-07-19 02:01:05 - modules.markdown_saver - INFO - Paper Markdown saved successfully: C:\iCloudDrive\iCloud~md~obsidian\auto논문\2025-07-19\(Clin experimental medicine)Exploring SERTAD4 as a prognostic biomarker and therapeutic target in breast cancer insights from mu....md
+✅ Total 9 papers saved.
+
+📊 Category classification:
+🔥 High relevance: 2 papers
+📊 Medium relevance: 6 papers
+📄 Low relevance: 1 papers
+
+📁 Save location: C:\iCloudDrive\iCloud~md~obsidian\auto논문\2025-07-19
+📄 Saved files: 9
+[2025-07-19  2:01:05.88] Paper Surfer background runner finished 
